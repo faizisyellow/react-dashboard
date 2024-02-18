@@ -7,6 +7,7 @@ function UserList({ user, onDeleteData }) {
       <td>{user.id}</td>
       <td>{user.email}</td>
       <td>{user.name}</td>
+      <td>{user.password}</td>
       <td>{user.role.name}</td>
       <td>
         <Link to={`/update/${user.id}`}>

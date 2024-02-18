@@ -13,6 +13,7 @@ function TableUsers({ users, onDeleteData }) {
           <tr>
             <th>id</th>
             <th>Email</th>
+            <th>Name</th>
             <th>Password</th>
             <th>Role</th>
             <th>Update</th>
